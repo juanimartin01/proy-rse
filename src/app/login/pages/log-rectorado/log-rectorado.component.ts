@@ -35,6 +35,6 @@ export class LogRectoradoComponent implements OnInit {
   })
 
   loginUser(){
-    console.warn(this.loginForm.value);
+    console.log(this.loginForm.value);
   }
 }

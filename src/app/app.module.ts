@@ -8,7 +8,6 @@ import { SharedModule } from './shared/shared.module';
 
 import { FacultadesModule } from './facultades/facultades.module';
 import { LoginModule } from './login/login.module';
-import { AdminModule } from './admin/admin.module';
 
 
 @NgModule({
@@ -21,7 +20,6 @@ import { AdminModule } from './admin/admin.module';
     BrowserAnimationsModule,
     AmbitosModule,
     SharedModule,
-    AdminModule,
     FacultadesModule,
     LoginModule
   ],

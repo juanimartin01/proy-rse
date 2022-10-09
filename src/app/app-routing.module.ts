@@ -14,10 +14,6 @@ const routes: Routes = [
     loadChildren: () => import('./ambitos/ambitos.module'). then (m => m.AmbitosModule)
   },
   {
-    path: "admin",
-    loadChildren: () => import('./admin/admin.module'). then (m => m.AdminModule)
-  },
-  {
     path:'',
     pathMatch: 'full',
     redirectTo: '/login'

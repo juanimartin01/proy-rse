@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FacultadesRoutingModule } from './facultades-routing.module';
 import { RectoradoComponent } from './pages/rectorado/rectorado.component';
 
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { RectoradoComponent } from './pages/rectorado/rectorado.component';
   ],
   imports: [
     CommonModule,
-    FacultadesRoutingModule
+    FacultadesRoutingModule,
+    MatToolbarModule
   ],
   exports: [
     CommonModule,

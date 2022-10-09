@@ -6,7 +6,10 @@ import { LogRectoradoComponent } from './pages/log-rectorado/log-rectorado.compo
 import { HomeComponent } from './pages/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,11 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     LoginRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule
   ],
   exports: [
     InicioComponent

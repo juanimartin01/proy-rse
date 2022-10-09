@@ -12,20 +12,12 @@
         </div>
          <div class="main01">
             <div class="col-sm-12">
-               <div class="login-form">
-                  <form [formGroup]="loginForm" (ngSumbit)="loginUser()">
-                     <div class="form-group">
-                        <label>Nombre de Usuario</label>
-                        <input type="text" class="form-control" placeholder="Usuario" 
-                        formControlName="user" required>
-                     </div>
-                     <div class="form-group">
-                        <label>Contraseña</label>
-                        <input type="password" class="form-control" placeholder="Contraseña" 
-                        formControlName="password" required>
-                     </div>
-                     <button class="btn btn-black" (click)="loginUser()">Login</button>
-                  </form>
+               <div class="container">
+                  <mat-form-field appearance="fill">
+                     <mat-label>Usuario</mat-label>
+                     <input matInput>
+                   </mat-form-field>
+
                </div>
             </div>
          </div>
